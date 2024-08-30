@@ -1,0 +1,41 @@
+.table-container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #302e2e;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.filter-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	gap: 10px;
+}
+
+.filter-container input {
+	flex: 1;
+	min-width: 150px;
+	padding: 8px;
+	border: 1px solid #666;
+	border-radius: 6px;
+	background-color: #3b3939;
+}
+
+.user-table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #3b3939;
+}
+
+.user-table th,
+.user-table td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #666;
+}
+
+.user-table th {
+	background-color: #535151;
+}

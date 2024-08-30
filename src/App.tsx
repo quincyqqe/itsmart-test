@@ -1,9 +1,9 @@
-function App() {
-	
+import UserManagementTable from './components/UserManagementTable/UserManagementTable'
 
+function App() {
 	return (
 		<>
-			
+			<UserManagementTable />
 		</>
 	)
 }
